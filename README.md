@@ -10,7 +10,7 @@ The tool works as follows:
 5. Calculates similarity matrix (cosine similarity)  
 6. Clusters tweets (the default is Affinity Propagation, Kmeans and Spectral Clustering are other options)  
 7. Checks whether there are potential "hot news" clusters, using the following criteria:  
-  * a. diversity in reporting agencies  
-  * b. breaking news (according to keywords)  
-  * c. high enough retweet ratio  
+  1. diversity in reporting agencies  
+  2. breaking news (according to keywords)  
+  3. high enough retweet ratio  
 8. Chooses the best cluster and the best tweet based on retweet ratio.  
