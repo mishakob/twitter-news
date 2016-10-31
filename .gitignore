@@ -3,3 +3,4 @@ results*.csv
 archve/
 tweet-analyzer.ipynb
 keys.txt
+*checkpoint.ipynb
