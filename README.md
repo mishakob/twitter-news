@@ -13,4 +13,3 @@ The tool works as follows:
  - diversity in reporting agencies
  - breaking news (according to keywords)
  - high enough retweet ratio
-8. Chooses the best cluster and the best tweet based on retweet ratio.
