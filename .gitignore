@@ -1,7 +1,6 @@
 tweets.*.csv
 results*.csv
-archve/
+archive/
 tweet-analyzer.ipynb
 keys.txt
-*checkpoint.ipynb
-.gitignore
+.ipynb_checkpoints/
