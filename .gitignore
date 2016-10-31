@@ -4,3 +4,4 @@ archve/
 tweet-analyzer.ipynb
 keys.txt
 *checkpoint.ipynb
+.gitignore
