@@ -69,10 +69,11 @@ for name in glob.glob('results[0-9].csv'):
 ###################################################
 # get tweets function
 def get_tweets(handle,writer,maxID):
-	CONSUMER_KEY = 'HHt41ypLnYY0WdV9Qpnze8Akm'
-	CONSUMER_SECRET = 'tDVYVL7mZe9fXHlSKRhKcDBA4bC4q3X9d7cUx8D888B8K3T3zt'
-	ACCESS_KEY = '3314682258-set94GPGL7ClnBJTr7as1HwhfAhwVxDWkOYC86Z'
-	ACCESS_SECRET = 'NrNuHxjtg8HRcpO1aVSZ8YI0B7QkIYu65mvzhJuYF28hT'
+	with open('keys.txt') as k:
+		CONSUMER_KEY = k.readline().rstrip()
+		CONSUMER_SECRET = k.readline().rstrip()
+		ACCESS_KEY = k.readline().rstrip()
+		ACCESS_SECRET = k.readline().rstrip()
 	twitter = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
 	
 	if maxID == 0:
